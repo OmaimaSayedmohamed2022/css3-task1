@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+width: 100wh;
+box-sizing: border-box;
+background-color: rgb(245, 226, 245);
+}
+h1{
+text-align: center;
+}
+.line{
+    width: 70px;
+    height: 3px;
+   background-color: rgb(149, 91, 243);
+   margin: auto;
+}
+.div1,.div2,.div3,.div4{
+    width: 200px;
+height: 100px;
+background-color: rgb(240, 166, 203);
+margin-top: 50px;
+position: relative;
+}
+.parent2{
+    margin-top: -600px;
+}
+.div5,.div6,.div7,.div8{
+height: 100px;
+background-color: rgb(240, 166, 203);
+margin-top: 50px;
+position: relative;
+}
+.div1{
+    animation: change1  3s  ease 1s 1  alternate-reverse  both running; 
+   }
+    @keyframes change1{ 
+   0%{width:0px; background-color: plum;}
+   50%{width: 100%; background-color: skyblue;}
+   100%{width:0%;}
+   }
+   .div5{
+    animation: change5 3s  ease 4s 1 alternate-reverse  both running; 
+}
+@keyframes change5{ 
+    0%{left:100%;background-color: skyblue;}
+    50%{left: 0%; background-color: plum;}
+   100%{left: 100%;}
+ }
+ .div2{
+    animation: change2  3s  ease 7s 1 alternate-reverse  both running; 
+   }
+    @keyframes change2{ 
+        0%{width:0px; background-color: plum;}
+        50%{width: 100%; background-color: skyblue;}
+   100%{width:0% ;}
+   }
+   .div6{
+    animation: change6 3s  ease 10s 1 alternate-reverse  both running; 
+}
+@keyframes change6{ 
+    0%{left:100%;background-color: skyblue;}
+    50%{left: 0%; background-color: plum;}
+   100%{left: 100%;}
+ }
+ .div3{
+    animation: change3  3s  ease 13s 1  alternate-reverse  both running; 
+   }
+    @keyframes change3{ 
+        0%{width:0px; background-color: plum;}
+        50%{width: 100%; background-color: skyblue;}
+   100%{width:0% ;}
+   }
+   .div7{
+    animation: change7 3s  ease 16s 1 alternate-reverse  both running; 
+}
+@keyframes change7{ 
+    0%{left:100%;background-color: skyblue;}
+    50%{left: 0%; background-color: plum;}
+   100%{left: 100%;}
+ }
+ .div4{
+    animation: change4  3s  ease 19s 1  alternate-reverse  both running; 
+   }
+    @keyframes change4{ 
+        0%{width:0px; background-color: plum;}
+        50%{width: 100%; background-color: skyblue;}
+   100%{width:0% ;}
+   }
+   .div8{
+    animation: change8 3s  ease 22s 1 alternate-reverse  both running; 
+}
+@keyframes change8{ 
+    0%{left:100%;background-color: skyblue;}
+    50%{left: 0%; background-color: plum;}
+   100%{left: 100%;}
+ }
